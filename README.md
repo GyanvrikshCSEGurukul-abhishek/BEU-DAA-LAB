@@ -33,17 +33,27 @@ Open a terminal in the repository's root directory.
 
 ### Windows (MinGW-w64 GCC)
 
-Compile an individual program, for example Quick Sort:
+Compile an individual program, for example Quick Sort (gcc file_name -o executable_file_name):
 
 ```powershell
-gcc -std=c11 -Wall -Wextra -pedantic programs/01_quick_sort.c -o quick_sort.exe
+gcc 01_quick_sort.c -o quick_sort
+```
+
+Execute an individual program, for example Quick Sort (executable_file_name.exe):
+
+```powershell
 .\quick_sort.exe
 ```
 
-For another experiment, replace the source filename and executable name:
+For another experiment, Knapsack (gcc file_name -o executable_file_name):
 
 ```powershell
-gcc -std=c11 -Wall -Wextra -pedantic programs/04_knapsack_01.c -o knapsack.exe
+gcc 04_knapsack_01.c -o knapsack
+```
+
+Execute an individual program, for example Quick Sort (executable_file_name.exe):
+
+```powershell
 .\knapsack.exe
 ```
 
