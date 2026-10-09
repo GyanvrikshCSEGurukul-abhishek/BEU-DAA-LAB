@@ -51,7 +51,7 @@ For another experiment, Knapsack (gcc file_name -o executable_file_name):
 gcc 04_knapsack_01.c -o knapsack
 ```
 
-Execute an individual program, for example Quick Sort (executable_file_name.exe):
+Execute an individual program, for example Knapsack (executable_file_name.exe):
 
 ```powershell
 .\knapsack.exe
